@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 //componentes que obtém os dados de autenticação da plataforma
-import { service, user } from '@seniorsistemas/platform-data';
+import { service, user } from '@seniorsistemas/senior-platform-data';
 import { forkJoin, Observable, from } from 'rxjs';
 import { mergeMap} from 'rxjs/operators';
 
